@@ -54,5 +54,16 @@ convert -delay 500 title*.png name.gif
 
 - to visualize the video :
 
+gwenview name.gif
+
+To bring back the video <<local>> ses these example :
+  
+scp sdfo500@eccc-ppp2:SeDOO/requests/CCG/Gulf_of_Gothia/test_version5_CCG_Gulf_of_Gothia_20180831.gif .
+
+scp sdfo000@gpsc-in:/fs/vnas_Hdfo/odis/sdfo000/sdfo000/ECCC_forecast/requests/CCG/Golf_of_Gothia/test2_CCG_Gulf_of_Gothia_20180904UTC.gif .
+
+***if you need to add your key .pub to the authorised keys please follow the procedure
+
+
 
 
