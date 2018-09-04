@@ -56,7 +56,7 @@ convert -delay 500 title*.png name.gif
 
 gwenview name.gif
 
-To bring back the video <<local>> ses these example :
+To bring back the video on local machine, see these examples :
   
 scp sdfo500@eccc-ppp2:SeDOO/requests/CCG/Gulf_of_Gothia/test_version5_CCG_Gulf_of_Gothia_20180831.gif .
 
