@@ -1,5 +1,5 @@
 # SPI
-## GPSC
+## A) GPSC
 
 First, log  : ssh -XC sdo000@gpsc-in
 Secondly, log : ssh -XC sdo000@gpsc-vis6
@@ -19,7 +19,7 @@ The project is in the directory:
 /fs/vnas_Hdfo/odis/sdfo000/sdfo000/ECCC_forecast/requests/CCG/Golf_of_Gothia/gulf_of_gothia_2.spi
 
 
-## PPP
+## B) PPP
 Log to group account : ssh -XC sdfo500@eccc-ppp2
 
 The project is in the directory:
@@ -27,7 +27,7 @@ cd ~/SeDOO/requests/CCG/Gulf_of_Gothia/sample
 
 ## Generate forecast vidéo
 
-3) Open SPI
+1) Open SPI project:
 - SPI
 - Files/open_project : CCG_Gulf_of_Gothia.spi
 
@@ -43,7 +43,12 @@ cd ~/SeDOO/requests/CCG/Gulf_of_Gothia/sample
 5) If there is a problem in display:
 - Open the console in the menu bar and write: fstdfield vector { UUW VVW }
 - Clic on the wheel pictogram bar : Parameters
-- Field /VAR  select the vectors display 
+- Field /VAR  select the vectors display
+
+6) Generate the figures for the video:
+- Clic on animation
+- run the animation with the save button (bottom rigth)
+- In the linux command line run the following command where the files were produced to create the video:
 
 
 
