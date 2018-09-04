@@ -1,10 +1,10 @@
 # SPI
 ## A) GPSC
 
-First, log  : ssh -XC sdo000@gpsc-in
-Secondly, log : ssh -XC sdo000@gpsc-vis6
+1) First, log  : ssh -XC sdo000@gpsc-in
+2) Secondly, log : ssh -XC sdo000@gpsc-vis6
 
-To get access to the forecast read the link below:
+3) To get access to the forecast read the link below:
 http://www.gcpedia.gc.ca/wiki/DFO_GPSC#ECCC_Forecast_Products
 
 **Actually, you only need to do these following lines because the .profile is already set:
@@ -12,10 +12,10 @@ http://www.gcpedia.gc.ca/wiki/DFO_GPSC#ECCC_Forecast_Products
 export ORDENV_TRUEHOST=eccc-gpsc1
 . ssmuse-sh -x eccc/cmo/cmoi/base/20180117
 
-To load SPI follow the instructions:
+4) To load SPI follow the instructions:
 http://www.gcpedia.gc.ca/wiki/DFO_GPSC#Viewer_and_software
 
-The project is in the directory:
+5) The project is in the directory:
 /fs/vnas_Hdfo/odis/sdfo000/sdfo000/ECCC_forecast/requests/CCG/Golf_of_Gothia/gulf_of_gothia_2.spi
 
 
@@ -40,17 +40,19 @@ cd ~/SeDOO/requests/CCG/Gulf_of_Gothia/sample
 - Select the first UUW and VVW via [ctl] in VAR column
 - Clic bottom left ''refresh diplay'' (blue arrow)
 
-5) If there is a problem in display:
+5) If there is a display problem:
 - Open the console in the menu bar and write: fstdfield vector { UUW VVW }
 - Clic on the wheel pictogram bar : Parameters
 - Field /VAR  select the vectors display
 
 6) Generate the figures for the video:
-- Clic on animation
+- Clic on animation in the menu bar
 - run the animation with the save button (bottom rigth)
-- In the linux command line run the following command where the files were produced to create the video:
+- After, in the linux command line run the following command where the files were produced to create the video:
 
+convert -delay 500 title*.png name.gif
 
+- to visualize the video :
 
 
 
