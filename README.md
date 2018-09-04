@@ -1,4 +1,13 @@
 # SPI
+First, log to sdo000 account, thant to the gpsc-vis6, and then log the environment :
+
+
+
+then load SPI :
+http://www.gcpedia.gc.ca/wiki/DFO_GPSC#Viewer_and_software
+
+
+
 Generate forecast vidéo 
 
 1) use group account on ppp (so A & P have access):
