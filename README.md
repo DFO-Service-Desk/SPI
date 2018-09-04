@@ -1,18 +1,24 @@
 # SPI
 ## GPSC
 
-First, log to sdo000 account, thant to the gpsc-vis6, and then log the environment :
+First, log  : ssh -XC sdo000@gpsc-in
+Secondly, log : ssh -XC sdo000@gpsc-vis6
 
-then load SPI :
-http://www.gcpedia.gc.ca/wiki/DFO_GPSC#Viewer_and_software
-
-Get acces to the forecast:
+To get acces to the forecast read the link below:
 http://www.gcpedia.gc.ca/wiki/DFO_GPSC#ECCC_Forecast_Products
+
+**You only need to do the last two lines:
+
+export ORDENV_TRUEHOST=eccc-gpsc1
+. ssmuse-sh -x eccc/cmo/cmoi/base/20180117
+
+To load SPI read the link:
+http://www.gcpedia.gc.ca/wiki/DFO_GPSC#Viewer_and_software
 
 Generate forecast vidéo 
 
-1) use group account on ppp (so A & P have access):
-ssh -XC sdfo500@eccc-ppp2
+## PPP
+Log to group account : ssh -XC sdfo500@eccc-ppp2
 
 2) the project is in the directory
 cd ~/SeDOO/requests/CCG/Gulf_of_Gothia/sample
