@@ -15,6 +15,11 @@ export ORDENV_TRUEHOST=eccc-gpsc1
 To load SPI read the link:
 http://www.gcpedia.gc.ca/wiki/DFO_GPSC#Viewer_and_software
 
+The project is in the directory:
+
+/fs/vnas_Hdfo/odis/sdfo000/sdfo000/ECCC_forecast/requests/CCG/Golf_of_Gothia/gulf_of_gothia_2.spi
+
+
 Generate forecast vidéo 
 
 ## PPP
